@@ -1,5 +1,5 @@
 import { Play } from 'phosphor-react'
-import { HomeContainer } from './styles'
+import { HomeContainer, StartCountdownButton } from './styles'
 
 export function Home() {
   return (
@@ -22,10 +22,10 @@ export function Home() {
           <span>0</span>
         </div>
 
-        <button type="submit">
+        <StartCountdownButton type="submit">
           <Play size={24} />
           Começar
-        </button>
+        </StartCountdownButton>
       </form>
     </HomeContainer>
   )
